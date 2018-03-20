@@ -30,7 +30,7 @@ func main(){
     // print: hello
 
     txt2 := "cok"
-    fixed2 := typos.SubstituteTypos(txt, "ru")
+    fixed2 := typos.SubstituteTypos(txt2, "ru")
     fmt.Println(fixed2)
     // print: сок
 }
